@@ -1,0 +1,424 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+html {
+  font-size: 16px;
+}
+
+header {
+  width: 100%;
+  height: 85px;
+  background-color: rgb(255, 255, 255);
+}
+header a {
+  text-decoration: none;
+  color: rgb(74, 74, 74);
+}
+header a:hover {
+  color: rgb(184, 89, 12);
+}
+.navbar {
+  width: 100%;
+  height: 100%;
+  padding: 0 1.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo {
+  font-size: 1.5rem;
+  font-family: 'Roboto Mono', monospace;
+}
+.desktop li {
+  display: inline-block;
+  font-size: 1rem;
+  margin: auto auto auto 2rem;
+  line-height: 1.6;
+}
+.icon {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-left: 0.5rem;
+}
+.icon:hover {
+  border-bottom: solid 2px rgb(184, 89, 12);
+  padding: 2px;
+}
+.mobile {
+  display: none;
+}
+
+/* Main content */
+
+.main-content {
+  width: 100%;
+  height: auto;
+}
+.banner {
+  background-image: url(file:///C:/CC%20Projects/Fotomatic/F1C1_start/resources/images/banner-landingpage.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding:  10.625rem 0 10.625rem 6.25rem;
+  height: 100%;
+  width: 100%;
+}
+#sign-up-cta {
+  background-color: #9DC20A;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  text-align: center;
+  width: 35.5rem;
+  height: auto;
+}
+div.center {
+  margin: 2rem 0 3.5rem 0;
+}
+.header .cursive {
+  color: white;
+  font-family: "Damion", cursive;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.header .striking {
+  color: white;
+  font-size: 3.125rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.email span {
+  color: white;
+  font-size: 1.25rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+.button {
+  background-color: rgb(74, 74, 74);
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 1.625rem 5rem 0 5rem;
+  height: 4rem;
+  width: 25.5rem;
+}
+.button:hover {
+  cursor: pointer;
+}
+.button:active {
+  background-color: rgb(107, 107, 107);
+  color: rgb(215, 215, 215);
+}
+
+/* Features */
+
+#features-section {
+  background-color: rgb(234 234 234);
+  display: inline-flex;
+  justify-content: center;
+  margin: 0;
+  padding: 4rem 0 2.875rem 0;
+  width: 100%;
+  height: auto;
+}
+.feature {
+  background-color: white;
+  margin: 0 1.187rem;
+  padding: 2rem 2rem 0 2rem;
+  text-align: center;
+  height: auto;
+  width: 40rem;
+}
+.feature .center {
+  margin: 0;
+  padding: 0;
+}
+.feature img {
+  padding: 0 0 2.5rem 0;
+  margin: 0;
+  height: 65%;
+  width: 100%;
+}
+.feature .content {
+  width: 100%;
+  height: 9.187rem;
+}
+.content h2 {
+  color: rgb(74, 74, 74);
+  font-size: 2.25rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.content h3 {
+  color: rgb(74, 74, 74);
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+/* Filters  */
+
+#filters-section {
+  background-color: rgb(74 74 74);
+  width: 100%;
+}
+.content-center {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 4rem 0 5rem 0;
+  text-align: center;
+}
+.content-center h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+.content-center h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+.images-container {
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 0;
+  padding: 0 1% 4rem 1%;
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+}
+.image-container {
+  height: auto;
+  width: 25%;
+  overflow: hidden;
+}
+.image-container img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Footer */
+
+#quotes-section {
+  background-color: rgb(234 234 234);
+  text-align: center;
+  padding: 5rem 1.875rem 5rem 0;
+  height: auto;
+  width: 100%;
+}
+.quote {
+  color: rgb(74, 74, 74);
+  font-family: "Palatino", serif;
+  font-size: 1.875rem;
+  font-style: italic;
+  line-height: 1.1;
+}
+.quote-citation {
+  border-image-repeat: stretch;
+  margin-left: 1.875rem;
+  height: 1.875rem;
+  width: auto;
+} 
+
+footer {
+  background-color: rgb(155, 155, 155);
+  padding: 0 2rem;
+  height: 3.875rem;
+  width: 100%;
+}
+footer .content {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75rem;
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content {
+    height: 30rem;
+    width: 100%;
+  }
+  .banner {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  #sign-up-cta {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+  }
+  .email {
+    display: none;
+  }
+
+  #features-section {
+    background-color: rgb(248 248 248);
+    padding: 2rem 1rem;
+    width: 100%;
+    height: auto;
+  }
+  .feature {
+    margin: 0 0.5rem;
+    padding: 1rem 1rem 0 1rem;
+    text-align: center;
+    height: 30rem;
+    width: 40rem;
+  }
+  .feature .center {
+    height: 100%;
+    text-align: left;
+  }
+  .feature img {
+    padding: 0 0 1rem 0;
+    margin: 0;
+  }
+
+  .content-center {
+    padding: 4rem 0;
+  }
+  .images-container {
+    margin: 0;
+    padding: 0;
+  }
+
+  #quotes-section {
+    background-color: rgb(248 248 248);
+    padding: 5rem 1.875rem;
+  }
+  .quotes-center {
+    display: inline-flex;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    width: 100%;
+    height: 48px;
+    overflow: hidden;
+  }
+  .navbar {
+    width: 100%;
+    height: 100%;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: contents;
+  }
+  .mobile ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+  }
+  .mobile li {
+    display: inline-block;
+  }
+  .mobile .button {
+    background-color: rgb(157, 194, 11);
+    border-radius: 0.25rem;
+    color: white;
+    font-weight: 300;
+    margin: 0;
+    padding: 0.187rem 0.5rem;
+    width: auto;
+    height: auto;
+  }
+
+  .banner {
+    background-position: right;
+  }
+
+  #features-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+  }
+  .feature {
+    margin: 0;
+    padding: 1rem 1rem 1.875rem 1rem;
+    height: auto;
+    width: 100%
+  }
+  .feature img {
+    padding: 0;
+    margin: 0;
+  }
+  .feature .content {
+    height: auto;
+    margin: 0 20%;
+    text-align: center;
+    width: 60%;
+  }
+  .content h2 {
+    font-size: 1.12rem;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 1.5rem 0 1rem 0;
+  }
+  .content h3 {
+    font-size: 0.875rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+
+  #quotes-section {
+    background-color: rgb(248 248 248);
+    width: 100%;
+    height: auto;
+    /* padding: 5rem 1.875rem; */
+    padding: 2rem 20%;
+  }
+  .quotes-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+
+  }
+  .quote {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .quote-citation {
+    margin: 1rem 35%;
+    width: 6.875rem;
+    height: 1.875rem;
+  }
+
+  footer .content {
+    font-size: 0.625rem;
+  }
+}
